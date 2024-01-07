@@ -1,0 +1,9 @@
+[package]
+name = "mril_server_protocol"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mril_transfer_protocol = { git = "https://github.com/natoxpy/mril_transfer_protocol.git" } 
